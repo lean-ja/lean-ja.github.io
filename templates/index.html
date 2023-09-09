@@ -1,0 +1,28 @@
+{#
+juice テーマの index.html を上書きする
+#}
+{% extends "juice/templates/index.html" %}
+{% block hero %}
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+    <section class="text-center">
+        <img class="hero-image" style="max-width: 70%" src="{{ get_url(path=config.extra.juice_logo_path) }}">
+        <h1 class="heading-text" style="font-size: 40px">
+            Lean 言語の日本語コミュニティ
+        </h1>
+    </section>
+
+
+    <div class="explore-more text"
+        onclick="document.getElementById('features').scrollIntoView({behavior: 'smooth'})">
+        Explore More ⇩
+    </div>
+    <style>
+        .hero section {
+            padding: 0 5rem;
+        }
+    </style>
+{% endblock hero %}
+
+{% block content %}
+    {{ section.content | safe }}
+{% endblock content %}
