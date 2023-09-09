@@ -3,9 +3,9 @@ title = "lean ja"
 sort_by = "weight"
 +++
 
-# 概要
+## 概要
 
-## __Lean について__
+### __Lean について__
 
 [Lean](https://leanprover.github.io/) は関数型言語であり，正しく保守性の高いコードを容易に書くことができるよう設計されています．
 
@@ -13,7 +13,7 @@ sort_by = "weight"
 
 Lean は高度な数学を表現することも可能です．[mathlib4](https://github.com/leanprover-community/mathlib4) というライブラリもあり，大学の学部程度の数学を Lean で行うことが可能です．
 
-## __わたしたちについて__
+### __わたしたちについて__
 
 lean ja は，Lean に関する情報の交換と集積を目的とした日本語コミュニティです．[discussion](https://github.com/orgs/lean-ja/discussions)でLeanに関する情報を日本語でやり取りすることができます．質問やアイデア共有などにぜひお使いください．
 
