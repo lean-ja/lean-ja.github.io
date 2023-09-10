@@ -8,13 +8,12 @@ lean ja のウェブサイトです．
 
 * このサイトは Rust 製の静的サイトジェネレータである，Zola を用いています．まず[インストール手順](https://www.getzola.org/documentation/getting-started/installation/)に従って Zola をインストールします．
 
-* このリポジトリを clone します
+* このリポジトリをして，Zola の juice テーマを gitsubmodule を用いてインストールします．
 
 ```bash
 git clone https://github.com/lean-ja/website.git
 cd website
+git pull --recurse-submodules
 ```
-
-* Zola の juice テーマを gitsubmodule を用いてインストールするために，`git submodule update --init` を実行します．
 
 * `zola serve` を実行し，`Web server is available at ...` とあるところをクリックします．
