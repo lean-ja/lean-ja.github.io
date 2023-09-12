@@ -26,3 +26,4 @@ weight = 1
 * [Functional Programming in Lean](https://leanprover.github.io/functional_programming_in_lean/) 関数型プログラミング言語としての Lean の入門書．
 * [Mathematics in Lean](https://leanprover-community.github.io/mathematics_in_lean/) Lean でどのように数学を形式化するかを学ぶ教科書．初等整数論をはじめ，位相空間や測度論も扱っています．
 * [Natural Number Game 4](https://adam.math.hhu.de/#/g/hhu-adam/NNG4) Lean を使い，ペアノの公理から初めて自然数の基本的な性質を証明するブラウザゲーム．
+* [Mathematics in type thoery 日本語訳](https://lean-ja.github.io/math-in-type-theory-ja/) Xena の記事「Mathematics in type theory」の非公式日本語訳です
