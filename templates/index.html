@@ -5,8 +5,8 @@ juice テーマの index.html を上書きする
 {% block hero %}
     <script async defer src="https://buttons.github.io/buttons.js"></script>
     <section class="text-center">
-        <img class="hero-image" style="max-width: 70%" src="{{ get_url(path=config.extra.juice_logo_path) }}">
-        <h1 class="heading-text" style="font-size: 40px">
+        <img class="hero-image" style="max-width: 70%; min-width: 300px;" src="{{ get_url(path=config.extra.juice_logo_path) }}">
+        <h1 class="heading-text">
             Lean 言語の日本語コミュニティ
         </h1>
     </section>
@@ -19,6 +19,20 @@ juice テーマの index.html を上書きする
     <style>
         .hero section {
             padding: 0 5rem;
+        }
+
+        h1.heading-text {
+            font-size: 40px;
+        }
+
+        @media screen and (max-width: 768px) {
+            .hero section {
+                padding: 0 2rem;
+            }
+
+            h1.heading-text {
+                font-size: 20px;
+            }
         }
     </style>
 {% endblock hero %}
