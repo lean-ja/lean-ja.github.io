@@ -6,14 +6,14 @@ lean ja のウェブサイトです．
 
 ローカルにプレビューする方法を書きます.
 
-* このサイトは Rust 製の静的サイトジェネレータである，Zola を用いています．まず[インストール手順](https://www.getzola.org/documentation/getting-started/installation/)に従って Zola をインストールします．
+**STEP1** このサイトは Rust 製の静的サイトジェネレータである，Zola を用いています．まず[インストール手順](https://www.getzola.org/documentation/getting-started/installation/)に従って Zola をインストールします．
 
-* このリポジトリをして，Zola の juice テーマを gitsubmodule を用いてインストールします．
+**STEP2** このリポジトリを clone します．下記コマンドを実行してください．
 
 ```bash
-git clone https://github.com/lean-ja/website.git
-cd website
-git pull --recurse-submodules
+git clone --recursive https://github.com/lean-ja/website.git
 ```
 
-* `zola serve` を実行し，`Web server is available at ...` とあるところをクリックします．
+`--recursive` フラグは，含まれている　git submodule も同時に clone するために必要です．このリポジトリは，Zola の juice テーマを submodule 経由で利用しています．
+
+**STEP3** `zola serve` を実行し，`Web server is available at ...` とあるところをクリックします．
