@@ -19,11 +19,14 @@ weight = 1
 ## ドキュメントや教材など
 
 * [Theorem Proving in Lean 4](https://leanprover.github.io/theorem_proving_in_lean4) Lean 4の定理証明支援系としての側面に焦点を当てた公式チュートリアルテキストです．
-* [Theorem Proving in Lean 4 日本語訳](https://aconite-ac.github.io/theorem_proving_in_lean4_ja/) Theorem Proving in Lean 4 の有志による日本語訳です．
-* [数学系のためのLean勉強会](https://haruhisa-enomoto.github.io/lean-math-workshop/) 2023/09/03 に開催された，数学ユーザに向けたLean言語の勉強会．資料が公開されています．
-* [Leanのインストール方法・elanとLakeの使い方](https://aconite-ac.github.io/how_to_install_lean/) Leanのインストール方法・elanとLakeの使い方をまとめた有志による資料．
 * [Lean Manual](https://leanprover.github.io/lean4/doc/) Lean 言語の公式ドキュメント．
 * [Functional Programming in Lean](https://leanprover.github.io/functional_programming_in_lean/) 関数型プログラミング言語としての Lean の入門書．
 * [Mathematics in Lean](https://leanprover-community.github.io/mathematics_in_lean/) Lean でどのように数学を形式化するかを学ぶ教科書．初等整数論をはじめ，位相空間や測度論も扱っています．
 * [Natural Number Game 4](https://adam.math.hhu.de/#/g/hhu-adam/NNG4) Lean を使い，ペアノの公理から初めて自然数の基本的な性質を証明するブラウザゲーム．
+
+## 日本語リソース
+
+* [Theorem Proving in Lean 4 日本語訳](https://aconite-ac.github.io/theorem_proving_in_lean4_ja/) Theorem Proving in Lean 4 の有志による日本語訳です．
 * [Mathematics in type thoery 日本語訳](https://lean-ja.github.io/math-in-type-theory-ja/) Xena の記事「Mathematics in type theory」の非公式日本語訳です
+* [Leanのインストール方法・elanとLakeの使い方](https://aconite-ac.github.io/how_to_install_lean/) Leanのインストール方法・elanとLakeの使い方をまとめた有志による資料．
+* [数学系のためのLean勉強会](https://haruhisa-enomoto.github.io/lean-math-workshop/) 2023/09/03 に開催された，数学ユーザに向けたLean言語の勉強会．資料が公開されています．
