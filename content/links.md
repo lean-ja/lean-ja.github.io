@@ -30,3 +30,4 @@ weight = 1
 * [Mathematics in type thoery 日本語訳](https://lean-ja.github.io/math-in-type-theory-ja/) Xena の記事「Mathematics in type theory」の非公式日本語訳です
 * [Leanのインストール方法・elanとLakeの使い方](https://aconite-ac.github.io/how_to_install_lean/) Leanのインストール方法・elanとLakeの使い方をまとめた有志による資料．
 * [数学系のためのLean勉強会](https://haruhisa-enomoto.github.io/lean-math-workshop/) 2023/09/03 に開催された，数学ユーザに向けたLean言語の勉強会．資料が公開されています．
+* [Lean4 タクティク逆引きリスト](https://github.com/lean-ja/tactic-cheetsheet) 主なタクティクを使用場面から逆引きできるようにまとめたリストです．
