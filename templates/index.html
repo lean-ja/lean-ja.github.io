@@ -2,6 +2,13 @@
 juice テーマの index.html を上書きする
 #}
 {% extends "juice/templates/index.html" %}
+
+{% block fonts %}
+    <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+{% endblock fonts %}
+
 {% block hero %}
     <script async defer src="https://buttons.github.io/buttons.js"></script>
     <section class="text-center">
