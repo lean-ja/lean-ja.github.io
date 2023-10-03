@@ -4,11 +4,12 @@ description = "リンク集"
 weight = 1
 +++
 
-## 団体やコミュニティのトップページ
+## 団体トップページやコミュニティ
 
 * [Lean Theorem Prover](https://leanprover.github.io/) Lean の公式サイト．
 * [Lean Community](https://leanprover-community.github.io/) Lean のコミュニティ．
 * [Lean Prover Zulip Chat](https://leanprover.zulipchat.com/) Lean について何でも質問できる公式のフォーラム．
+* [Lean 4 anarchy](https://discord.gg/8zSkMQpzqs) Lean のディスコードサーバ．Zulip と違って，くだけた雰囲気です．
 
 ## ライブラリやツール
 
