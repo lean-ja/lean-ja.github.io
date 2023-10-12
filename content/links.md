@@ -15,7 +15,7 @@ weight = 1
 
 * [mathlib4](https://github.com/leanprover-community/mathlib4) Lean で大学の学部程度の数学を実装したライブラリ．
 * [Lean4 VSCode 拡張機能](https://github.com/leanprover/vscode-lean4) Lean4 のための VSCode 拡張機能．
-* [Lean4 Web](https://lean.math.hhu.de/) ブラウザ上で Lean が実行できるプレイグラウンド．
+* [Lean4 Web](https://live.lean-lang.org/) ブラウザ上で Lean が実行できるプレイグラウンド．
 
 ## ドキュメントや教材など
 
