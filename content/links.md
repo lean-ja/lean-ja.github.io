@@ -28,7 +28,7 @@ weight = 1
 ## 日本語リソース
 
 * [Theorem Proving in Lean 4 日本語訳](https://aconite-ac.github.io/theorem_proving_in_lean4_ja/) Theorem Proving in Lean 4 の有志による日本語訳です．
-* [Mathematics in type thoery 日本語訳](https://lean-ja.github.io/math-in-type-theory-ja/) Xena の記事「Mathematics in type theory」の非公式日本語訳です
+* [Mathematics in type thoery 日本語訳](https://zenn.dev/leanja/articles/math_in_type_theory) Xena の記事「Mathematics in type theory」の非公式日本語訳です
 * [Leanのインストール方法・elanとLakeの使い方](https://aconite-ac.github.io/how_to_install_lean/) Leanのインストール方法・elanとLakeの使い方をまとめた有志による資料．
 * [数学系のためのLean勉強会](https://haruhisa-enomoto.github.io/lean-math-workshop/) 2023/09/03 に開催された，数学ユーザに向けたLean言語の勉強会．資料が公開されています．
 * [Lean4 タクティク逆引きリスト](https://lean-ja.github.io/tactic-cheetsheet/) 主なタクティクを使用場面から逆引きできるようにまとめたリストです．
