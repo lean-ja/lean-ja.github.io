@@ -16,9 +16,3 @@ Lean は証明支援系でもあり，数学の証明を検証する能力を備
 現在，Lean で数学理論を実装していこうという努力が積極的に行われています．[mathlib4](https://github.com/leanprover-community/mathlib4) というライブラリがあり，大学の学部程度の数学のかなりの部分を Lean で行うことが可能になっています．
 
 [Lean 4 Web](https://lean.math.hhu.de/) から Lean を試すことができます．あなたも Lean で新しい数学を体験してみませんか？
-
-## __わたしたちについて__
-
-lean-ja は，Lean に関する情報の交換と集積を目的とした日本語コミュニティです．[discussion](https://github.com/orgs/lean-ja/discussions)でLeanに関する情報を日本語でやり取りすることができます．質問やアイデア共有などにぜひお使いください．
-
-また，Leanの学習リソースの翻訳を順次ホスト・公開する予定です．
