@@ -28,7 +28,7 @@ where
 -- 最初の数個の値に対してテストする
 #guard [0, 1, 2, 3, 4, 5].map fib = [0, 1, 1, 2, 3, 5]
 
-/-- `fib` 満たす漸化式 -/
+/-- `fib` が満たす漸化式 -/
 theorem fib_add (n : Nat) : fib n + fib (n + 1) = fib (n + 2) := by rfl
 ```
 
