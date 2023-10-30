@@ -11,7 +11,26 @@ Lean は証明支援系でもあり，数学の証明を検証する能力を備
 
 そして Lean はパワフルです．いま示すべきことと得られていることを逐一表示できるのはもちろん，証明の一部を自動化したり，強すぎる仮定を自動的に検出したりすることもできます．
 
-![Leanのプレイ風景](./lean-playing.png)
+```lean
+import Mathlib.Tactic
+
+/-- フィボナッチ数列の線形時間の実装 -/
+def fib (n : Nat) : Nat :=
+  (loop n).1
+where
+  -- ヘルパー関数を定義する
+  loop : Nat → Nat × Nat
+    | 0   => (0, 1)
+    | n + 1 =>
+      let p := loop n
+      (p.2, p.1 + p.2)
+
+-- 最初の数個の値に対してテストする
+#guard [0, 1, 2, 3, 4, 5].map fib = [0, 1, 1, 2, 3, 5]
+
+/-- `fib` 満たす漸化式 -/
+theorem fib_add (n : Nat) : fib n + fib (n + 1) = fib (n + 2) := by rfl
+```
 
 現在，Lean で数学理論を実装していこうという努力が積極的に行われています．[mathlib4](https://github.com/leanprover-community/mathlib4) というライブラリがあり，大学の学部程度の数学のかなりの部分を Lean で行うことが可能になっています．
 
