@@ -22,6 +22,13 @@ build_search_index = false
 # Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
 highlight_code = true
 
+# A list of directories used to search for additional `.sublime-syntax` and `.tmTheme` files.
+extra_syntaxes_and_themes = ["syntaxes"]
+
+# The theme to use for code highlighting.
+# See below for list of allowed values.
+highlight_theme = "ayu-mirage"
+
 [extra]
 # Put all your custom variables here
 juice_logo_name = "LEAN JA"
