@@ -13,7 +13,7 @@ contexts:
         1: keyword.other.definitioncommand.lean
       push:
         - meta_scope: meta.definitioncommand.lean
-        - match: '(?=\bwith\b|\bextends\b|[:\|\(\[\{⦃<>])'
+        - match: '(?=\bwith\b|\bextends\b|\bwhere\b|[:\|\(\[\{⦃<>])'
           pop: true
         - include: comments
         - include: definitionName
