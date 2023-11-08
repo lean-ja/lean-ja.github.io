@@ -13,7 +13,8 @@ weight = 1
 
 ## ライブラリやツール
 
-* [mathlib4](https://github.com/leanprover-community/mathlib4) Lean で大学の学部程度の数学を実装したライブラリ．
+* [Mathlib4](https://github.com/leanprover-community/mathlib4) Lean で大学の学部程度の数学を実装したライブラリ．
+* [Moogle](https://www.moogle.ai/) Mathlib4 などから定理や定義を検索できるツール．
 * [Lean4 VSCode 拡張機能](https://github.com/leanprover/vscode-lean4) Lean4 のための VSCode 拡張機能．
 * [Lean4 Web](https://live.lean-lang.org/) ブラウザ上で Lean が実行できるプレイグラウンド．
 
