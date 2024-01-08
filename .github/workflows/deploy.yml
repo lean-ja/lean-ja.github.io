@@ -14,10 +14,10 @@ jobs:
     steps:
       - name: Checkout main
         uses: actions/checkout@v4
-      - name: Build only
+      - name: install zola
         uses: shalzz/zola-deploy-action@v0.17.2
         env:
-          BUILD_DIR: public
+          BUILD_DIR: .
           BUILD_ONLY: true
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
