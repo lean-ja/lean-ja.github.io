@@ -27,6 +27,7 @@ weight = 1
 * [Mathematics in Lean](https://leanprover-community.github.io/mathematics_in_lean/) Lean でどのように数学を形式化するかを学ぶ教科書．初等整数論をはじめ，位相空間や測度も扱っています．
 * [Metaprogramming in Lean 4](https://github.com/leanprover-community/lean4-metaprogramming-book) Lean で独自のコマンドやタクティクを作るための方法を解説した本．
 * [Natural Number Game 4](https://adam.math.hhu.de/#/g/hhu-adam/NNG4) Lean を使い，ペアノの公理から始めて自然数の基本的な性質を証明する初心者向けブラウザゲーム．
+* [Courses using Lean](https://leanprover-community.github.io/teaching/courses.html) Lean を題材とした講義のリスト．
 
 ## 日本語リソース
 
