@@ -34,4 +34,4 @@ weight = 1
 * [Theorem Proving in Lean 4 日本語訳](https://aconite-ac.github.io/theorem_proving_in_lean4_ja/) Theorem Proving in Lean 4 の有志による日本語訳です．
 * [Leanのインストール方法・elanとLakeの使い方](https://aconite-ac.github.io/how_to_install_lean/) Leanのインストール方法・elanとLakeの使い方をまとめた有志による資料．
 * [数学系のためのLean勉強会](https://haruhisa-enomoto.github.io/lean-math-workshop/) 2023/09/03 に開催された，数学ユーザに向けたLean言語の勉強会．資料が公開されています．
-* [Lean4 タクティク逆引きリスト](https://lean-ja.github.io/tactic-cheatsheet/) 主なタクティクを使用場面から逆引きできるようにまとめたリストです．
+* [Lean by Example](https://lean-ja.github.io/lean-by-example/) Lean 言語と，その主要なライブラリの使い方を豊富なコード例とともに解説した資料です．
