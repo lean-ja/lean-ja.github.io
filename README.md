@@ -11,7 +11,7 @@ lean ja のウェブサイトです．
 **STEP2** このリポジトリを clone します．下記コマンドを実行してください．
 
 ```bash
-git clone --recursive https://github.com/lean-ja/website.git
+git clone --recursive https://github.com/lean-ja/lean-ja.github.io.git
 ```
 
 `--recursive` フラグは，含まれている　git submodule も同時に clone するために必要です．このリポジトリは，Zola の [juice テーマ](https://juice.huhu.io/)を submodule 経由で利用しています．
