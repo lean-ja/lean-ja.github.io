@@ -9,7 +9,6 @@ weight = 1
 * [Lean Theorem Prover](https://leanprover.github.io/) Lean の公式サイト。
 * [Lean Community](https://leanprover-community.github.io/) Lean のコミュニティ。
 * [Lean Prover Zulip Chat](https://leanprover.zulipchat.com/) Lean について何でも質問できる公式のフォーラム。
-* [Lean 4 anarchy](https://discord.com/invite/WZ9bs9UCvx) Lean のディスコードサーバ。Zulip と違って、くだけた雰囲気です。
 * [lean-ja](https://discord.gg/qR5hqRGj3N***) 日本語コミュニティ lean-ja のディスコードサーバ。 (スパム除けのためにURLを変更しています。末尾の `***` を削除してください)
 
 ## ライブラリやツール
